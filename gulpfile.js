@@ -12,11 +12,15 @@ var gulp = require('gulp')
 const JsHint = require('gulp-jshint')
 const Mocha = require('gulp-mocha')
 const Standard = require('gulp-standard')
+var join = require('path').join
 
 // @jsFiles
-var jsFiles = ['./**/*.js', '*.js', '!./node_modules/**/*']
+var jsFiles = [
+  join(process.cwd(), '**', '*.js'),
+  `!${join(process.cwd(), 'node_modules', '**', '*')}`
+]
 // @specFiles
-var specFiles = ['spec/**/*.js', 'spec/*.js']
+var specFiles = join(process.cwd(), 'spec', '**', '*')
 
 /**
  * Gulp-task: lint

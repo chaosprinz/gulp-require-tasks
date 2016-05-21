@@ -20,7 +20,7 @@ var jsFiles = [
   `!${join(process.cwd(), 'node_modules', '**', '*')}`
 ]
 // @specFiles
-var specFiles = join(process.cwd(), 'spec', '**', '*')
+var specFiles = join(process.cwd(), 'spec', '**', '*Spec.js')
 
 /**
  * Gulp-task: lint

@@ -1,0 +1,33 @@
+{
+  "name": "gulp-require-tasks",
+  "version": "1.0.0",
+  "description": "Require gulp-tasks exported by other modules in your gulp.tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaosprinz/gulp-require-tasks.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Siggi Duenkel <chaosprinz76@gmail.com> (https://siggiduenkel.wordpress.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaosprinz/gulp-require-tasks/issues"
+  },
+  "homepage": "https://github.com/chaosprinz/gulp-require-tasks#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-standard": "^7.0.1",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5"
+  }
+}

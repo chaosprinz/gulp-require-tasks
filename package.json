@@ -1,5 +1,5 @@
 {
-  "name": "gulp-require-tasks",
+  "name": "require-gulp-tasks",
   "version": "1.0.0",
   "description": "Require gulp-tasks exported by other modules in your gulp.tasks",
   "main": "index.js",

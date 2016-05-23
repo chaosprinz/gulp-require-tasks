@@ -2,7 +2,7 @@
 Require gulp-tasks exported by other modules in your gulp.tasks.
 
 ## Install
-Install it via npm: ```npm install gulp-require-tasks```
+Install it via npm: ```npm install require-name-tasks```
 
 ## Usage
 Its fairly easy. Require the module. It exports a function which takes a string
